@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+    <html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proposal Bible Camp 2026 - PERMATA GBKP Runggun Km. 4</title>
+        <link rel="icon" type="image/png" href="assets/img/logo.png">
+        
+        <!-- Memuat Tailwind CSS untuk styling -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        
+        <!-- Memuat Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Pacifico&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+        
+        <!-- Memuat FontAwesome untuk Ikon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            sans: ['Inter', 'sans-serif'],
+                            display: ['Fredoka', 'sans-serif'],
+                            cursive: ['Pacifico', 'cursive'],
+                        },
+                        colors: {
+                            camp: {
+                                cyan: '#b2ebf2',
+                                blue: '#00838f',
+                                orange: '#ff9800',
+                                pink: '#fce4ec',
+                                red: '#d32f2f',
+                                dark: '#1e293b'
+                            }
+                        }
+                    }
+                }
+            }
+        </script>
+        <style>
+            body {
+                /* Latar belakang terinspirasi dari gradien desain proposal */
+                background: linear-gradient(180deg, #c3f0f5 0%, #e8f4f8 40%, #fae1e8 100%);
+                background-attachment: fixed;
+            }
+            .page-container {
+                background-color: rgba(255, 255, 255, 0.95);
+                box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            }
+            /* Styling khusus untuk tabel */
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 1.5rem;
+            }
+            th, td {
+                border: 1px solid #cbd5e1;
+                padding: 0.75rem;
+                text-align: left;
+                vertical-align: top;
+            }
+            th {
+                background-color: #f1f5f9;
+                font-weight: 600;
+                color: #0f172a;
+            }
+            /* Garis putus-putus untuk area kuitansi */
+            .receipt-cut {
+                border-top: 2px dashed #94a3b8;
+                position: relative;
+            }
+            .receipt-cut::before {
+                content: '\f0c4'; /* Ikon Gunting */
+                font-family: 'Font Awesome 6 Free';
+                font-weight: 900;
+                position: absolute;
+                top: -12px;
+                left: 5%;
+                color: #94a3b8;
+                background: #fff;
+                padding: 0 10px;
+            }
+        </style>
+    </head>
+    <body class="text-slate-800 antialiased py-8 px-4 sm:px-6">
+
+        <div class="max-w-4xl mx-auto page-container rounded-2xl overflow-hidden relative">
+            
+            <!-- HEADER / COVER PROPOSAL -->
+            <header class="relative p-8 md:p-16 text-center bg-gradient-to-b from-camp-cyan to-transparent border-b-4 border-camp-blue">
+                <!-- Label Proposal -->
+                <div class="absolute top-6 left-0 bg-camp-red text-white font-bold text-xl py-2 px-8 rounded-r-full shadow-lg">
+                    Proposal
+                </div>
+                
+                <!-- Logo Utama -->
+                <div class="flex justify-center mt-12 mb-8">
+                    <img src="assets/img/logo-jukebox-bg-removed.png" alt="Logo Bible Camp PERMATA GBKP 2026" class="w-full max-w-xs md:max-w-md drop-shadow-2xl">
+                </div>
+
+                <!-- Judul Utama (Optional, bisa dihapus jika logo sudah cukup menjelaskan) -->
+                <!-- <h1 class="font-cursive text-6xl md:text-8xl text-camp-orange mb-2 drop-shadow-md" style="-webkit-text-stroke: 2px #00838f;">Bible</h1>
+                <h1 class="font-cursive text-5xl md:text-7xl text-white mb-6 drop-shadow-md" style="-webkit-text-stroke: 2px #00838f;">Camp <span class="text-4xl md:text-5xl vertical-align-super">2026</span></h1> -->
+                
+                <h2 class="font-display text-2xl md:text-4xl font-bold text-camp-blue tracking-wide mb-10 mt-8">PERMATA GBKP RUNGGUN KM. 4 MEDAN</h2>
+                
+                <!-- Tema -->
+                <div class="mt-8 text-camp-blue">
+                    <h3 class="font-display text-xl md:text-3xl italic font-bold">"Berakar dan Berbuah di Dalam Kristus"</h3>
+                    <p class="font-bold mt-8 text-slate-600">@biblecamp_permatapaskahkm.4</p>
+                </div>
+            </header>
+
+            <!-- KONTEN UTAMA DOKUMEN -->
+            <main class="p-6 md:p-12 space-y-12 text-sm md:text-base leading-relaxed">
+
+                <!-- BAGIAN: SURAT PERMOHONAN -->
+                <section class="space-y-4">
+                    <div class="text-right mb-6">
+                        <p>Medan, 16 Mei 2026</p>
+                    </div>
+                    
+                    <div class="grid grid-cols-[100px_auto] gap-2 mb-6">
+                        <div>Nomor</div>
+                        <div>: 00 /PAN-BC/PRP/V/2026</div>
+                        <div>Lampiran</div>
+                        <div>: 1 (Satu) Berkas Proposal</div>
+                        <div>Hal</div>
+                        <div>: <strong>Permohonan Bantuan Dana</strong></div>
+                    </div>
+
+                    <div class="mb-6">
+                        <p>Kepada Yth :</p>
+                        <div class="border-b border-black w-48 mt-4 mb-2"></div>
+                        <p>Di- Tempat</p>
+                    </div>
+
+                    <div class="space-y-4 text-justify">
+                        <p>Shalom, Salam Sejahtera dalam Yesus Kristus.,</p>
+                        <p>Segala Hormat dan Kemuliaan hanya bagi Yesus Kristus yang senantiasa menghadirkan sukacita di tengah kegiatan Bible Camp PERMATA GBKP Rg Km. 4. Untuk mensyukuri atas kasih Tuhan di tengah kegiatan ini, maka kami Panitia Bible Camp PERMATA GBKP Rg Km. 4 dengan penuh kerendahan hati kami menyampaikan Permohonan Bantuan Dana Kepada Bapak/Ibu/Sdra-i untuk mendukung dan mensukseskan proses persiapan kegiatan Bible Camp ini. Adapun rangkaian kegiatan ini dilaksanakan pada :</p>
+                        
+                        <div class="ml-4 md:ml-8 my-4 grid grid-cols-[120px_auto] gap-2 font-medium">
+                            <div>Hari/Tanggal</div>
+                            <div>: Jumat, 10 Juli 2026 s/d Minggu, 12 Juli 2026</div>
+                            <div>Waktu</div>
+                            <div>: Pukul 14.00 WIB – Selesai</div>
+                            <div>Tempat</div>
+                            <div>: Retreat Center Sukamakmur Sibolangit</div>
+                        </div>
+
+                        <p>Demikian Surat Permohonan Bantuan Dana ini kami sampaikan, atas partisipasi dan bantuan Bapak/Ibu/Sdra/i kami mengucapkan terima kasih dan semoga Tuhan Yesus Memberkati kita sekalian.</p>
+                    </div>
+
+                    <div class="mt-8 text-center">
+                        <p class="mb-4">Hormat Kami,</p>
+                        <p class="font-bold mb-8">PANITIA BIBLE CAMP TAHUN 2026 PERMATA GBKP RUNGGUN KM. 4 MEDAN</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                            <div>
+                                <p>Ketua Umum</p>
+                                <div class="h-24 flex items-center justify-center text-gray-300 italic">(Tanda Tangan)</div>
+                                <p class="font-bold underline">Esekiel Tarigan</p>
+                            </div>
+                            <div>
+                                <p>Sekretaris</p>
+                                <div class="h-24 flex items-center justify-center text-gray-300 italic">(Tanda Tangan)</div>
+                                <p class="font-bold underline">Nafatika Indriyani Br. Simbolon</p>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 mb-8">
+                            <div>
+                                <p>Bendahara</p>
+                                <div class="h-24 flex items-center justify-center text-gray-300 italic">(Tanda Tangan)</div>
+                                <p class="font-bold underline">Alvera Teresia Br. Kembaren</p>
+                            </div>
+                        </div>
+
+                        <p class="mt-12 mb-8">Diketahui Oleh,</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div>
+                                <p>Pengurus PERMATA GBKP Runggun<br>Km. 4 Medan</p>
+                                <!-- Visual placeholder for stamps -->
+                                <div class="h-24 w-full flex items-center justify-center relative">
+                                    <div class="absolute w-32 h-16 border-2 border-blue-500 rounded-[50%] opacity-20 -rotate-12"></div>
+                                    <span class="text-gray-300 italic z-10">(Tanda Tangan & Cap)</span>
+                                </div>
+                                <p class="font-bold underline">Angki Angkota Tarigan</p>
+                            </div>
+                            <div>
+                                <p>BPMR GBKP Runggun Km. 4 Medan<br>Ketua</p>
+                                <div class="h-24 w-full flex items-center justify-center relative">
+                                    <div class="absolute w-24 h-16 border-2 border-blue-600 rounded-[50%] opacity-20 rotate-6"></div>
+                                    <span class="text-gray-300 italic z-10">(Tanda Tangan & Cap)</span>
+                                </div>
+                                <p class="font-bold underline">Pdt. Erwin Sembiring Gurky, S.Th</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="border-t-2 border-camp-cyan my-8">
+
+                <!-- BAGIAN: PENDAHULUAN -->
+                <section>
+                    <h2 class="text-2xl font-bold text-center mb-6 text-camp-blue border-b-2 border-camp-orange inline-block mx-auto">PENDAHULUAN</h2>
+                    <h3 class="text-lg font-bold mb-3">Latar Belakang</h3>
+                    <div class="space-y-3 text-justify">
+                        <p>PERMATA GBKP adalah organisasi persekutuan pemuda Gereja Batak Karo Protestan (GBKP). PERMATA merupakan aset terpenting yang dimiliki gereja mengingat bahwa PERMATA merupakan pewaris atau penerus gereja, Oleh karena itu diharapkan PERMATA GBKP memiliki iman yang mantap sehingga senantiasa melayani Tuhan dalam berbagai kondisi dan situasi apapun.</p>
+                        <p>Pembelajaran iman yang selama ini dilakukan dalam jadwal rutin di tengah kesibukan studi dan pelayanan, telah memperkaya wawasan hidup beriman dan bergereja. Pendalaman tentang hakekat hidup beriman dapat ditingkatkan lebih lanjut dengan metode Bible Camp sebagai sarana pembinaan dan pemantapan komitmen iman.</p>
+                        <p>Berdasarkan Program kerja Pengurus PERMATA GBKP Runggun Km.4 memutuskan untuk mengadakan Bible Camp di tahun ini dan mengajukan proposal sebagai bahan pertimbangan. Acara ini diadakan mengingat sangat perlunya kegiatan rohani seperti Bible Camp untuk menanamkan nilai-nilai kristiani kepada para anggota PERMATA, mempererat hubungan antar PERMATA GBKP Runggun Km.4 agar semakin bersatu, dan sebagai penyemangat dalam pelayanan.</p>
+                        <p>PERMATA GBKP Runggun Km.4 sebagai generasi gereja sangat membutuhkan kesegaran rohani melalui siraman rohani maupun refresing, agar setiap pribadi PERMATA menjadi lebih semangat, memiliki hati dan jiwa yang segar dalam melayani Tuhan.</p>
+                        <p>Hal inilah yang mendasari diadakannya Bible Camp ini sebagai penyegaran iman dan meningkatkan Persekutuan dengan Allah. Harapan kami semoga dalam pelaksanaan Bible Camp ini, hati dan jiwa kita benar-benar segar dan semakin haus akan firman Tuhan, hubungan antar PERMATA GBKP Runggun Km. 4 semakin erat dan kompak. Semoga kita juga memiliki hal yang rindu dan selalu rindu untuk melayani Tuhan.</p>
+                        <p>Hal diatas merupakan latar belakang diadakannya kegiatan Bible Camp yang diharapkan mampu menghadirkan suasana yang baru dan membangkitkan kembali semangat didalam tugas dan tanggung jawabnya terutama di dalam pelayanan PERMATA GBKP Runggun Km. 4 melalui nilai- nilai yang akan disampaikan lewat bible camp ini.</p>
+                    </div>
+                </section>
+
+                <!-- BAGIAN: TUJUAN KEGIATAN -->
+                <section>
+                    <h3 class="text-lg font-bold mb-3">TUJUAN KEGIATAN</h3>
+                    <p class="mb-2">Adapun tujuan dari kegiatan ini adalah :</p>
+                    <ol class="list-decimal pl-5 space-y-2 text-justify">
+                        <li>PERMATA GBKP Runggun Km.4 dapat mengalami pencerahan dan pertobatan serta membuat komitmen untuk hidup baru.</li>
+                        <li>PERMATA GBKP Runggun Km. 4 dapat meningkatkan iman dan kerohanian melalui persekutuan, doa, dan pendalaman Firman Tuhan.</li>
+                        <li>PERMATA GBKP Runggun Km.4 dapat membentuk karakter generasi muda Kristen yang takut akan Tuhan, disiplin, dan bertanggung jawab.</li>
+                        <li>PERMATA GBKP Runggun Km. 4 sebagai pemuda-pemudi gereja agar lebih menjaga persatuan dan kesatuan dalam pelayanan kepada Tuhan yang didasari oleh kasih dan lebih mempererat hubungan persaudaraan serta kebersamaan antar anggota PERMATA GBKP.</li>
+                        <li>PERMATA GBKP Runggun Km.4 dapat merasakan kehadiran Tuhan di dalam setiap aspek kehidupannya dan dapat lebih melayani dalam Tuhan dengan kesungguhan hati.</li>
+                    </ol>
+                </section>
+
+                <!-- BAGIAN: ISI PROPOSAL -->
+                <section>
+                    <h2 class="text-2xl font-bold text-center mb-6 text-camp-blue border-b-2 border-camp-orange inline-block mx-auto">ISI PROPOSAL</h2>
+                    
+                    <h3 class="text-lg font-bold mb-2">Nama dan Tema Kegiatan</h3>
+                    <div class="grid grid-cols-[140px_auto] gap-2 mb-6">
+                        <div>Nama Kegiatan</div>
+                        <div class="font-bold">: BIBLE CAMP PERMATA GBKP RUNGGUN KM.4 MEDAN</div>
+                        <div>Tema Kegiatan</div>
+                        <div class="font-bold text-camp-blue">: “Berakar dan Bertumbuh di Dalam Kristus” Mazmur 1:1-3</div>
+                    </div>
+
+                    <h3 class="text-lg font-bold mb-3">Rangkaian Kegiatan</h3>
+                    <div class="overflow-x-auto">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th colspan="3" class="bg-camp-blue text-white text-center text-lg py-3 rounded-t-lg">Jumat, 10 Juli 2026</th>
+                                </tr>
+                                <tr>
+                                    <th class="w-[20%] text-center">Waktu</th>
+                                    <th class="w-[45%]">Kegiatan</th>
+                                    <th class="w-[35%]">Pelaksana</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="text-center">14.00 - 15.00</td><td>Registrasi</td><td>Umum/Kesekretariatan</td></tr>
+                                <tr><td class="text-center">15.00 - 17.00</td><td>Berangkat ke RC</td><td>Peserta Bible Camp</td></tr>
+                                <tr><td class="text-center">17.00 - 18.00</td><td>Briefing & Bagi Snack</td><td>Seksi Konsumi</td></tr>
+                                <tr><td class="text-center">18.00 - 19.00</td><td>Persiapan Pribadi</td><td>Peserta Bible Camp</td></tr>
+                                <tr><td class="text-center">19.00 - 20.00</td><td>Makan Malam</td><td>Seksi Konsumsi</td></tr>
+                                <tr><td class="text-center">20.00 - 22.00</td><td>Ibadah Pembuka</td><td>Pengkhotbah : Pdt. Erwin Sembiring Gurky, S.Th</td></tr>
+                                <tr><td class="text-center">22.00 - 23.00</td><td>Game/Kreativitas Ayat Alkitab</td><td>Seksi Acara</td></tr>
+                                <tr><td class="text-center">23.00 - 00.00</td><td>Persiapan Talent Night</td><td>Seksi Acara</td></tr>
+                                <tr><td class="text-center">00.00 - 05.30</td><td>Istirahat</td><td>Peserta Bible Camp & Seksi Keamanan</td></tr>
+                            </tbody>
+
+                            <!-- Sabtu -->
+                            <thead>
+                                <tr>
+                                    <th colspan="3" class="bg-camp-blue text-white text-center text-lg py-3 mt-4 block table-row">Sabtu, 11 Juli 2026</th>
+                                </tr>
+                                <tr>
+                                    <th class="text-center">Waktu</th>
+                                    <th>Kegiatan</th>
+                                    <th>Pelaksana</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="text-center">05.30 - 06.00</td><td>Saat Teduh</td><td>Seksi Acara</td></tr>
+                                <tr><td class="text-center">06.00 - 08.00</td><td>Persiapan Pribadi</td><td>Peserta Bible Camp</td></tr>
+                                <tr><td class="text-center">08.00 - 09.00</td><td>Sarapan Pagi</td><td>Seksi Konsumsi</td></tr>
+                                <tr>
+                                    <td class="text-center">09.00 - 10.30</td>
+                                    <td>Seminar Sesi I (Unhealty Sosial Life)</td>
+                                    <td>
+                                        <strong>Pembicara :</strong> Anette Isabella Ginting, M.Psi<br>
+                                        <strong>Tujuan :</strong> Kegiatan Unhealty Sosial Life ini bertujuan untuk mengubah pola hidup anggota PERMATA GBKP Runggun Km.4 yang kurang sehat, seperti keterlibatan dalam pergaulan bebas, seks bebas, penyalahgunaan narkoba, dan perilaku negatif lainnya.
+                                    </td>
+                                </tr>
+                                <tr><td class="text-center">10.30 - 11.00</td><td>Games & Coffee Break</td><td>Seksi Acara & Seksi Konsumsi</td></tr>
+                                <tr>
+                                    <td class="text-center">11.00 - 12.30</td>
+                                    <td>Seminar Sesi II (Spritual PERMATA)</td>
+                                    <td>
+                                        <strong>Pembicara :</strong> Pdt. Wilson Tarigan, S.Si Teol<br>
+                                        <strong>Tujuan :</strong> Kegiatan Spritual PERMATA ini bertujuan untuk membangun dan memperdalam iman anggota PERMATA GBKP Runggun Km.4 serta membantu mereka mengenal Tuhan dengan lebih baik.
+                                    </td>
+                                </tr>
+                                <tr><td class="text-center">12.30 - 13.30</td><td>Makan Siang</td><td>Seksi Konsumsi</td></tr>
+                                <tr>
+                                    <td class="text-center">13.30 – 15.30</td>
+                                    <td>Seminar Sesi III (BGA)</td>
+                                    <td>
+                                        <strong>Pembicara :</strong> Pdt Liza Selvina Tarigan, S. Th, M.M<br>
+                                        <strong>Tujuan :</strong> Kegiatan BGA ini bertujuan untuk mempelajari dasar-dasar Alkitab serta melatih peserta dalam menggali dan memahami isi Alkitab secara lebih mendalam.
+                                    </td>
+                                </tr>
+                                <tr><td class="text-center">15.30 – 16.30</td><td>Games</td><td>Seksi Acara</td></tr>
+                                <tr><td class="text-center">16.30 - 17.30</td><td>Persiapan Talent Night</td><td>Seksi Acara</td></tr>
+                                <tr><td class="text-center">17.30 - 19.00</td><td>Persiapan Pribadi</td><td>Peserta Bible Camp</td></tr>
+                                <tr><td class="text-center">19.00 - 20.00</td><td>Makan Malam</td><td>Seksi Konsumsi</td></tr>
+                                <tr>
+                                    <td class="text-center">20.00 - 22.00</td>
+                                    <td>Self Healing</td>
+                                    <td>
+                                        <strong>Pembicara :</strong> Dikba Foneru Barus, M.Th<br>
+                                        <strong>Tujuan :</strong> Kegiatan Self Healing ini bertujuan membantu anggota PERMATA GBKP Runggun Km.4 menghadapi pergumulan hidup serta memperoleh pemulihan dari berbagai beban pikiran dan tekanan emosional.
+                                    </td>
+                                </tr>
+                                <tr><td class="text-center">22.00 - 22.30</td><td>Coffee Break</td><td>Seksi Konsumsi</td></tr>
+                                <tr><td class="text-center">22.30 - 00.00</td><td>Talent Night Show</td><td>Seksi Acara</td></tr>
+                                <tr><td class="text-center">00.00 - 00.30</td><td>Api Unggun</td><td>Seksi Acara & Seksi PTT</td></tr>
+                                <tr><td class="text-center">00.30 - 05.30</td><td>Istirahat</td><td>Peserta Bible Camp & Seksi Keamanan</td></tr>
+                            </tbody>
+
+                            <!-- Minggu -->
+                            <thead>
+                                <tr>
+                                    <th colspan="3" class="bg-camp-blue text-white text-center text-lg py-3 mt-4 block table-row">Minggu, 12 Juli 2026</th>
+                                </tr>
+                                <tr>
+                                    <th class="text-center">Waktu</th>
+                                    <th>Kegiatan</th>
+                                    <th>Pelaksana</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="text-center">05.30 - 06.00</td><td>Sate Yuk</td><td>Seksi Acara</td></tr>
+                                <tr><td class="text-center">06.00 - 07.30</td><td>Persiapan Pribadi</td><td>Peserta Bible Camp</td></tr>
+                                <tr><td class="text-center">07.30 - 08.30</td><td>Sarapan Pagi</td><td>Seksi Konsumsi</td></tr>
+                                <tr><td class="text-center">08.30 - 09.30</td><td>Ibadah Raya</td><td>Pembicara : Pdt. Frebin Thea Rona S. Tekang</td></tr>
+                                <tr><td class="text-center">09.30 - 10.00</td><td>Persiapan Outbound</td><td>Peserta Bible Camp</td></tr>
+                                <tr><td class="text-center">10.00 - 12.00</td><td>Outbound</td><td>Seksi Acara & Seksi PTT</td></tr>
+                                <tr><td class="text-center">12.00 - 13.00</td><td>Makan Siang & Persiapan Pribadi</td><td>Seksi Konsumsi</td></tr>
+                                <tr><td class="text-center">13.00 - 14.00</td><td>Pembagian Hadiah & Foto Bersama</td><td>Seksi Acara</td></tr>
+                                <tr><td class="text-center">14.00 - 17.00</td><td>Pulang Ke Medan</td><td>Peserta Bible Camp</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h3 class="text-lg font-bold mb-2 mt-6">Target Peserta</h3>
+                    <p>Target peserta pada Bible Camp PERMATA GBKP Runggun Km.4 Medan adalah 80 orang.</p>
+                </section>
+
+                <!-- BAGIAN: REKAPITULASI DANA -->
+                <section>
+                    <h2 class="text-2xl font-bold text-center mb-6 mt-12 text-camp-blue border-b-2 border-camp-orange inline-block mx-auto">REKAPITULASI DANA</h2>
+                    
+                    <h3 class="text-lg font-bold mb-2">PENGELUARAN</h3>
+                    <div class="overflow-x-auto">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="text-center w-12">No</th>
+                                    <th>Perincian</th>
+                                    <th class="text-right w-40">Total (Rp)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="text-center">1</td><td>Umum</td><td class="text-right">7.981.000,-</td></tr>
+                                <tr><td class="text-center">2</td><td>Seksi Acara</td><td class="text-right">5.910.000,-</td></tr>
+                                <tr><td class="text-center">3</td><td>Seksi Peralatan, Tempat & Transportasi</td><td class="text-right">23.036.000,-</td></tr>
+                                <tr><td class="text-center">4</td><td>Seksi Publikasi & Dokumentasi</td><td class="text-right">2.414.000,-</td></tr>
+                                <tr><td class="text-center">5</td><td>Seksi Konsumsi</td><td class="text-right">12.440.000,-</td></tr>
+                                <tr><td class="text-center">6</td><td>Seksi Keamanan</td><td class="text-right">1.350.000,-</td></tr>
+                                <tr><td class="text-center">7</td><td>Seksi Dana</td><td class="text-right">4.900.000,-</td></tr>
+                                <tr><td class="text-center">8</td><td>Seksi Kesehatan</td><td class="text-right">-</td></tr>
+                                <tr class="font-bold bg-gray-100">
+                                    <td colspan="2" class="text-right">TOTAL</td>
+                                    <td class="text-right">58.031.000,-</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="italic font-medium mb-8">Terbilang : “Lima Puluh Delapan Juta Tiga Puluh Satu Ribu Rupiah”</p>
+
+                    <h3 class="text-lg font-bold mb-2">PEMASUKAN</h3>
+                    <div class="overflow-x-auto">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="text-center w-12">No</th>
+                                    <th>Perincian</th>
+                                    <th class="text-right w-40">Total (Rp)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="text-center">1</td><td>Subsidi Runggun</td><td class="text-right">3.000.000,-</td></tr>
+                                <tr><td class="text-center">2</td><td>Subsidi PR</td><td class="text-right">1.500.000,-</td></tr>
+                                <tr><td class="text-center">3</td><td>Kolekte Ekstra (8 × PA PERMATA)</td><td class="text-right">681.000,-</td></tr>
+                                <tr><td class="text-center">4</td><td>Kontribusi (80 × 300.000)</td><td class="text-right">24.000.000,-</td></tr>
+                                <tr><td class="text-center">5</td><td>Aksi Makanan</td><td class="text-right">1.850.000,-</td></tr>
+                                <tr><td class="text-center">6</td><td>Bazaar</td><td class="text-right">4.500.000,-</td></tr>
+                                <tr><td class="text-center">7</td><td>Proposal</td><td class="text-right">12.500.000,-</td></tr>
+                                <tr><td class="text-center">8</td><td>Undangan Sobek</td><td class="text-right">10.000.000,-</td></tr>
+                                <tr class="font-bold bg-gray-100">
+                                    <td colspan="2" class="text-right">TOTAL</td>
+                                    <td class="text-right">58.031.000,-</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="italic font-medium mb-8">Terbilang : “Lima Puluh Delapan Juta Tiga Puluh Satu Ribu Rupiah”</p>
+
+                    <div class="bg-blue-50 border-l-4 border-camp-blue p-4 rounded-r-lg shadow-sm">
+                        <h4 class="font-bold text-camp-blue mb-2">CATATAN :</h4>
+                        <p class="font-bold">NO REKENING PANITIA 2059-5935-32 (BANK BNI)<br>A.N. ALVERA TERESIA BR KEMBAREN</p>
+                        <p class="mt-2 text-camp-red font-bold text-sm">“BENTUK PEMBAYARAN HANYA MELALUI TAUTAN RESMI (LINK RESMI) DARI PANITIA ATAU PROPOSAL/UNDANGAN FISIK YANG DISERTAI SOBEKAN ASLI”</p>
+                    </div>
+                </section>
+
+                <!-- BAGIAN: RANCANGAN ANGGARAN BIAYA -->
+                <section>
+                    <h2 class="text-2xl font-bold text-center mb-6 mt-12 text-camp-blue border-b-2 border-camp-orange inline-block mx-auto">RANCANGAN ANGGARAN BIAYA</h2>
+                    
+                    <!-- Tabel RAB Umum -->
+                    <h3 class="font-bold mb-2">UMUM</h3>
+                    <div class="overflow-x-auto mb-6">
+                        <table>
+                            <thead><tr><th class="w-12 text-center">No</th><th>Perincian</th><th>Jumlah</th><th class="text-right w-32">Total (Rp)</th></tr></thead>
+                            <tbody>
+                                <tr><td class="text-center">1</td><td>Proposal</td><td>25 × 15.000</td><td class="text-right">375.000,-</td></tr>
+                                <tr><td class="text-center">2</td><td>Stempel</td><td></td><td class="text-right">70.000,-</td></tr>
+                                <tr><td class="text-center">3</td><td>Struk Undangan Sobek</td><td>35 × 3.600</td><td class="text-right">126.000,-</td></tr>
+                                <tr><td class="text-center">4</td><td>Buku Kwitansi</td><td>5 × 6.000</td><td class="text-right">30.000,-</td></tr>
+                                <tr><td class="text-center">5</td><td>Rapat Internal</td><td></td><td class="text-right">50.000,-</td></tr>
+                                <tr><td class="text-center">6</td><td>Kesekretariatan</td><td></td><td class="text-right">300.000,-</td></tr>
+                                <tr><td class="text-center">7</td><td>Obat-Obatan</td><td></td><td class="text-right">150.000,-</td></tr>
+                                <tr><td class="text-center">8</td><td>Baju Kaos Bible Camp</td><td>80 × 60.000</td><td class="text-right">4.800.000,-</td></tr>
+                                <tr><td class="text-center">9</td><td>Tote Bag</td><td>80 × 15.000</td><td class="text-right">1.200.000,-</td></tr>
+                                <tr><td class="text-center">10</td><td>Buku Catatan</td><td>80 × 6.000</td><td class="text-right">480.000,-</td></tr>
+                                <tr><td class="text-center">11</td><td>Pulpen</td><td>80 × 5.000</td><td class="text-right">450.000,-</td></tr>
+                                <tr class="font-bold bg-gray-100"><td colspan="3" class="text-right">Total Anggaran</td><td class="text-right">7.981.000,-</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Tabel RAB Seksi Acara -->
+                    <h3 class="font-bold mb-2">SEKSI ACARA</h3>
+                    <div class="overflow-x-auto mb-6">
+                        <table>
+                            <thead><tr><th class="w-12 text-center">No</th><th>Perincian</th><th>Jumlah</th><th class="text-right w-32">Total (Rp)</th></tr></thead>
+                            <tbody>
+                                <tr><td class="text-center">1</td><td>Pembicara Ibadah</td><td>2 × 500.000</td><td class="text-right">1.000.000,-</td></tr>
+                                <tr><td class="text-center">2</td><td>Pembicara / Pembimbing Seminar (3x Seminar)</td><td>3 × 600.000</td><td class="text-right">1.800.000,-</td></tr>
+                                <tr><td class="text-center">3</td><td>Pembicara Self Healing</td><td></td><td class="text-right">600.000,-</td></tr>
+                                <tr><td class="text-center">4</td><td>Perlengkapan Outbound</td><td></td><td class="text-right">500.000,-</td></tr>
+                                <tr><td class="text-center">5</td><td>Perlengkapan alat Ice Breaking & Hadiah</td><td></td><td class="text-right">1.000.000,-</td></tr>
+                                <tr><td class="text-center">6</td><td>Souvenir Perangkat Acara</td><td>9 × 50.000</td><td class="text-right">450.000,-</td></tr>
+                                <tr><td class="text-center">7</td><td>Hadiah Talent Night</td><td></td><td class="text-right">150.000,-</td></tr>
+                                <tr><td class="text-center">8</td><td>Rapat Internal</td><td></td><td class="text-right">210.000,-</td></tr>
+                                <tr><td class="text-center">9</td><td>Latihan Perangkat</td><td>4 × 50.000</td><td class="text-right">200.000,-</td></tr>
+                                <tr class="font-bold bg-gray-100"><td colspan="3" class="text-right">Total Anggaran</td><td class="text-right">5.910.000,-</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Tabel RAB PTT -->
+                    <h3 class="font-bold mb-2">SEKSI PERALATAN, TEMPAT & TRANSPORTASI</h3>
+                    <div class="overflow-x-auto mb-6">
+                        <table>
+                            <thead><tr><th class="w-12 text-center">No</th><th>Perincian</th><th>Jumlah</th><th class="text-right w-32">Total (Rp)</th></tr></thead>
+                            <tbody>
+                                <tr><td class="text-center">1</td><td>Sewa Lapangan</td><td></td><td class="text-right">4.500.000,-</td></tr>
+                                <tr><td class="text-center">2</td><td>Sewa Tenda Tidur</td><td>13 × 158.000</td><td class="text-right">2.054.000,-</td></tr>
+                                <tr><td class="text-center">3</td><td>Sewa Lampu Gantung Teratak</td><td></td><td class="text-right">450.000,-</td></tr>
+                                <tr><td class="text-center">4</td><td>Sewa Teratak Jemaat 2pcs ukuran 5×6, Kipas Gantung 2pcs dan Sewa Panggung (include teratak)</td><td></td><td class="text-right">4.700.000,-</td></tr>
+                                <tr><td class="text-center">5</td><td>Sewa Tikar dan Terpal</td><td></td><td class="text-right">400.000,-</td></tr>
+                                <tr><td class="text-center">6</td><td>Sewa Kipas Blower</td><td>3 × 300.000</td><td class="text-right">900.000,-</td></tr>
+                                <tr><td class="text-center">7</td><td>Sewa Bus</td><td></td><td class="text-right">4.800.000,-</td></tr>
+                                <tr><td class="text-center">8</td><td>Sound System</td><td></td><td class="text-right">3.600.000,-</td></tr>
+                                <tr><td class="text-center">9</td><td>Dekorasi</td><td></td><td class="text-right">1.000.000,-</td></tr>
+                                <tr><td class="text-center">10</td><td>Pengadaan Api Unggun</td><td></td><td class="text-right">340.000,-</td></tr>
+                                <tr><td class="text-center">11</td><td>Rapat Internal</td><td></td><td class="text-right">42.000,-</td></tr>
+                                <tr><td class="text-center">12</td><td>Biaya Survey</td><td></td><td class="text-right">250.000,-</td></tr>
+                                <tr class="font-bold bg-gray-100"><td colspan="3" class="text-right">Total Anggaran</td><td class="text-right">23.036.000,-</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Tabel RAB PubDok -->
+                    <h3 class="font-bold mb-2">SEKSI PUBLIKASI & DOKUMENTASI</h3>
+                    <div class="overflow-x-auto mb-6">
+                        <table>
+                            <thead><tr><th class="w-12 text-center">No</th><th>Perincian</th><th>Jumlah</th><th class="text-right w-32">Total (Rp)</th></tr></thead>
+                            <tbody>
+                                <tr><td class="text-center">1</td><td>Spanduk Utama ukuran 3 × 1</td><td></td><td class="text-right">54.000,-</td></tr>
+                                <tr><td class="text-center">2</td><td>Spanduk Panggung ukuran 5 × 3</td><td></td><td class="text-right">270.000,-</td></tr>
+                                <tr><td class="text-center">3</td><td>Name Tag Panitia & Peserta</td><td>80 × 8.000</td><td class="text-right">640.000,-</td></tr>
+                                <tr><td class="text-center">4</td><td>Sewa Lighting dan Flash</td><td></td><td class="text-right">550.000,-</td></tr>
+                                <tr><td class="text-center">5</td><td>Rapat Internal</td><td></td><td class="text-right">100.000,-</td></tr>
+                                <tr><td class="text-center">6</td><td>Pembelian Hardisk</td><td></td><td class="text-right">800.000,-</td></tr>
+                                <tr class="font-bold bg-gray-100"><td colspan="3" class="text-right">Total Anggaran</td><td class="text-right">2.414.000,-</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Tabel RAB Konsumsi -->
+                    <h3 class="font-bold mb-2">SEKSI KONSUMSI</h3>
+                    <div class="overflow-x-auto mb-6">
+                        <table>
+                            <thead><tr><th class="w-12 text-center">No</th><th>Perincian</th><th>Jumlah</th><th class="text-right w-32">Total (Rp)</th></tr></thead>
+                            <tbody>
+                                <tr><td class="text-center">1</td><td>Konsumsi 6x Makan</td><td>80 × 140.000</td><td class="text-right">11.200.000,-</td></tr>
+                                <tr><td class="text-center">2</td><td>Air Isi Ulang</td><td>20 × 5.000</td><td class="text-right">100.000,-</td></tr>
+                                <tr><td class="text-center">3</td><td>Snack Coffee Break</td><td>4 × 55.000</td><td class="text-right">220.000,-</td></tr>
+                                <tr><td class="text-center">4</td><td>Aqua Sedang/kotak (Perangkat Acara Hari H)</td><td>2 × 50.000</td><td class="text-right">100.000,-</td></tr>
+                                <tr><td class="text-center">5</td><td>Rapat Internal</td><td></td><td class="text-right">120.000,-</td></tr>
+                                <tr><td class="text-center">6</td><td>Konsumsi Rapat Besar</td><td>7 × 50.000</td><td class="text-right">350.000,-</td></tr>
+                                <tr><td class="text-center">7</td><td>Biaya Survei</td><td></td><td class="text-right">100.000,-</td></tr>
+                                <tr><td class="text-center">8</td><td>Alat dan Bahan Minuman</td><td></td><td class="text-right">250.000,-</td></tr>
+                                <tr class="font-bold bg-gray-100"><td colspan="3" class="text-right">Total Anggaran</td><td class="text-right">12.440.000,-</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Tabel RAB Keamanan -->
+                    <h3 class="font-bold mb-2">SEKSI KEAMANAN</h3>
+                    <div class="overflow-x-auto mb-6">
+                        <table>
+                            <thead><tr><th class="w-12 text-center">No</th><th>Perincian</th><th>Jumlah</th><th class="text-right w-32">Total (Rp)</th></tr></thead>
+                            <tbody>
+                                <tr><td class="text-center">1</td><td>Biaya HT (7 pcs)</td><td>4 × 300.000</td><td class="text-right">1.200.000,-</td></tr>
+                                <tr><td class="text-center">2</td><td>Rapat Internal</td><td>2 × 25.000</td><td class="text-right">50.000,-</td></tr>
+                                <tr><td class="text-center">3</td><td>Tali Pembatas</td><td></td><td class="text-right">100.000,-</td></tr>
+                                <tr class="font-bold bg-gray-100"><td colspan="3" class="text-right">Total Anggaran</td><td class="text-right">1.350.000,-</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Tabel RAB Seksi Dana -->
+                    <h3 class="font-bold mb-2">SEKSI DANA</h3>
+                    <div class="overflow-x-auto mb-6">
+                        <table>
+                            <thead><tr><th class="w-12 text-center">No</th><th>Perincian</th><th>Jumlah</th><th class="text-right w-32">Total (Rp)</th></tr></thead>
+                            <tbody>
+                                <tr><td class="text-center">1</td><td>Bazaar</td><td></td><td class="text-right">3.170.000,-</td></tr>
+                                <tr><td class="text-center">2</td><td>Aksi Makanan</td><td></td><td class="text-right">1.430.000,-</td></tr>
+                                <tr><td class="text-center">3</td><td>Rapat Internal</td><td></td><td class="text-right">150.000,-</td></tr>
+                                <tr><td class="text-center">4</td><td>Transport</td><td></td><td class="text-right">150.000,-</td></tr>
+                                <tr class="font-bold bg-gray-100"><td colspan="3" class="text-right">Total Anggaran</td><td class="text-right">4.900.000,-</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- BAGIAN: STRUKTUR DAN KEPANITIAAN -->
+                <section>
+                    <h2 class="text-2xl font-bold text-center mb-6 mt-12 text-camp-blue border-b-2 border-camp-orange inline-block mx-auto">STRUKTUR DAN KEPANITIAAN</h2>
+                    
+                    <div class="mb-6 grid grid-cols-[160px_auto] gap-2">
+                        <div class="font-bold">Penasehat</div>
+                        <div>: - BPMR GBKP Rg Km.4 Medan<br>&nbsp;&nbsp;- Seksi PERMATA GBKP Runggun Km. 4 Medan</div>
+                        <div class="font-bold">Penanggung Jawab</div>
+                        <div>: Pengurus PERMATA GBKP Runggun Km. 4 Medan</div>
+                        <div class="font-bold">Ketua</div>
+                        <div>: Esekiel Tarigan</div>
+                        <div class="font-bold">Wakil Ketua</div>
+                        <div>: Deafuka Valentino Sembiring</div>
+                        <div class="font-bold">Sekretaris</div>
+                        <div>: Nafatika Indriyani Br. Simbolon</div>
+                        <div class="font-bold">Bendahara</div>
+                        <div>: Alvera Teresia Br. Kembaren</div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 bg-slate-50 p-6 rounded-xl border border-slate-200">
+                        <div>
+                            <h4 class="font-bold text-camp-blue mb-1">Seksi Acara</h4>
+                            <p><span class="font-medium">Koordinator:</span> Anna Claudia Br. Ginting</p>
+                            <p class="font-medium mt-2">Anggota:</p>
+                            <ul class="list-disc pl-5">
+                                <li>Margaret Ameta Br. Sitepu</li>
+                                <li>Tito Joenta Depari</li>
+                                <li>Cherin Pebina Br. Sembiring</li>
+                                <li>Kevin Joel Richardson Bangun</li>
+                                <li>Agy Richi Revando Tarigan</li>
+                                <li>Theona Callista Br. Tarigan</li>
+                                <li>Fery Angriawan Ginting</li>
+                                <li>Jeremia Ginting</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-camp-blue mb-1">Seksi Peralatan, Tempat dan Transportasi</h4>
+                            <p><span class="font-medium">Koordinator:</span> Omarsando Tarigan</p>
+                            <p class="font-medium mt-2">Anggota:</p>
+                            <ol class="list-decimal pl-5">
+                                <li>Sean Christian Aurelius Ginting</li>
+                                <li>Fransiska Meiva Putri Br. Ginting</li>
+                                <li>Ferdy Benaya S. Brahmana</li>
+                                <li>Kristofer Bukit</li>
+                                <li>Enovta Sejati Tarigan</li>
+                                <li>Yeeshae Bara Grimaldey Surbakti</li>
+                            </ol>
+                        </div>
+
+                        <div>
+                            <h4 class="font-bold text-camp-blue mb-1">Seksi Publikasi dan Dokumentasi</h4>
+                            <p><span class="font-medium">Koordinator:</span> Frido Rionaldi Simbolon</p>
+                            <p class="font-medium mt-2">Anggota:</p>
+                            <ul class="list-disc pl-5">
+                                <li>Chelsea Patricia Amanda Br. Ginting</li>
+                                <li>Oriza Sativa Simbolon</li>
+                                <li>Yusuf Fajar Febrian Bangun</li>
+                                <li>Sry Mitha Br. Tarigan</li>
+                                <li>Elroy Sembiring</li>
+                                <li>Angelina Bilbina Bukit</li>
+                                <li>Ekselsis Deo Tarigan</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="font-bold text-camp-blue mb-1">Seksi Konsumsi</h4>
+                            <p><span class="font-medium">Koordinator:</span> Julianna Ida Putri S. Brahmana</p>
+                            <p class="font-medium mt-2">Anggota:</p>
+                            <ol class="list-decimal pl-5">
+                                <li>Zefanya Alemina Terapul Br. Sitepu</li>
+                                <li>Apriliana Putri Kezia Br. Sitepu</li>
+                                <li>Paulina Vidrosa Br. Sembiring</li>
+                                <li>Aliasta Kaban</li>
+                                <li>Reynaldo Thimoty Simbolon</li>
+                                <li>Alexsander Tarigan</li>
+                            </ol>
+                        </div>
+
+                        <div>
+                            <h4 class="font-bold text-camp-blue mb-1">Seksi Keamanan</h4>
+                            <p><span class="font-medium">Koordinator:</span> Nico Adrian Saragih</p>
+                            <p class="font-medium mt-2">Anggota:</p>
+                            <ul class="list-disc pl-5">
+                                <li>Aldi Sebayang</li>
+                                <li>Jordan Rismanda Tarigan</li>
+                                <li>Aurelio Purba</li>
+                                <li>Mikael Suranta Pandia</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="font-bold text-camp-blue mb-1">Seksi Dana</h4>
+                            <p><span class="font-medium">Penanggungjawab:</span> Patherecya Enda Melurita Br Purba & Pedro Yovando Ginting</p>
+                            <p class="font-medium mt-2">Anggota:</p>
+                            <ul class="list-disc pl-5">
+                                <li>Billy Atlanta Simole Perangin-Angin</li>
+                                <li>Louise Laurencia Br Tarigan</li>
+                                <li>Rylan Isena Bangun</li>
+                                <li>Fajar Brema S. Brahmana</li>
+                                <li>Margaretha E.M Pandia</li>
+                                <li>Deanna Lenisha Sherlina Br Sembiring</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="md:col-span-2">
+                            <h4 class="font-bold text-camp-blue mb-1">Seksi Kesehatan</h4>
+                            <p><span class="font-medium">Penanggungjawab:</span> Pengurus PERMATA GBKP Runggun Km. 4 Medan</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- BAGIAN: PENUTUP -->
+                <section class="mt-12">
+                    <h2 class="text-2xl font-bold text-center mb-6 text-camp-blue border-b-2 border-camp-orange inline-block mx-auto">PENUTUP</h2>
+                    
+                    <div class="space-y-4 text-justify">
+                        <p>Demikian Proposal kegiatan Bible Camp PERMATA GBKP Runggun Km.4 ini kami susun sebagai bentuk perencanaaan dan persiapan kegiatan yang terarah dan terstruktur.</p>
+                        <p>Kami menyadari bahwa kegiatan ini memiliki peran penting dalam menumbuhkan imam, membentuk karakter serta mempererat hubungan persaudaraan serta kebersamaan antar anggota PERMATA GBKP.</p>
+                        <p>Kami mengharapkan dukungan dan kerjasama dari seluruh pihak demi terselenggaranya kegiatan ini secara maksimal dan sesuai dengan tujuan yang telah direncanakan. Atas perhatian dan partisipasinya kami ucapkan terimakasih.</p>
+                    </div>
+
+                    <div class="mt-12 text-center">
+                        <p class="mb-4">Hormat Kami,</p>
+                        <p class="font-bold mb-8">PANITIA BIBLE CAMP TAHUN 2026 PERMATA GBKP RUNGGUN KM. 4 MEDAN</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                            <div>
+                                <p>Ketua Umum</p>
+                                <div class="h-24 flex items-center justify-center text-gray-300 italic">(Tanda Tangan)</div>
+                                <p class="font-bold underline">Esekiel Tarigan</p>
+                            </div>
+                            <div>
+                                <p>Wakil Ketua</p>
+                                <div class="h-24 flex items-center justify-center text-gray-300 italic">(Tanda Tangan)</div>
+                                <p class="font-bold underline">Deafuka Valentino Sembiring</p>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                            <div>
+                                <p>Sekretaris</p>
+                                <div class="h-24 flex items-center justify-center text-gray-300 italic">(Tanda Tangan)</div>
+                                <p class="font-bold underline">Nafatika Indriyani Br. Simbolon</p>
+                            </div>
+                            <div>
+                                <p>Bendahara</p>
+                                <div class="h-24 flex items-center justify-center text-gray-300 italic">(Tanda Tangan)</div>
+                                <p class="font-bold underline">Alvera Teresia Br. Kembaren</p>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                            <div>
+                                <p class="mb-4">Mengetahui,</p>
+                                <p>Pengurus PERMATA GBKP Runggun<br>Km. 4 Medan</p>
+                                <div class="h-24 flex items-center justify-center text-gray-300 italic">(Tanda Tangan & Cap)</div>
+                                <p class="font-bold underline">Angki Angkota Tarigan</p>
+                            </div>
+                            <div>
+                                <p class="mb-4">Disetujui Oleh,</p>
+                                <p>BPMR GBKP Runggun Km. 4 Medan<br>Ketua</p>
+                                <div class="h-24 flex items-center justify-center text-gray-300 italic">(Tanda Tangan & Cap)</div>
+                                <p class="font-bold underline">Pdt. Erwin Sembiring Gurky, S.Th</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- BAGIAN: KUITANSI -->
+                <section class="mt-16 pt-12 receipt-cut">
+                    <!-- Kuitansi Donatur -->
+                    <div class="border-2 border-camp-blue rounded-xl p-6 mb-8 relative bg-white">
+                        <div class="absolute top-4 right-4 text-xs font-bold bg-camp-cyan text-camp-blue px-2 py-1 rounded">Lembar Donatur</div>
+                        <div class="text-center border-b-2 border-camp-orange pb-4 mb-4">
+                            <h3 class="text-xl font-bold font-display text-camp-blue">KUITANSI PROPOSAL</h3>
+                            <p class="text-sm">No : ........................................</p>
+                        </div>
+                        
+                        <div class="grid grid-cols-[120px_auto] gap-3 mb-6">
+                            <div>Nama Donatur</div>
+                            <div>: <span class="border-b border-dotted border-gray-400 block w-full inline-block min-h-[1.5rem]"></span></div>
+                            <div>Hari/Tanggal</div>
+                            <div>: <span class="border-b border-dotted border-gray-400 block w-full inline-block min-h-[1.5rem]"></span></div>
+                            <div>Uang Sejumlah</div>
+                            <div>: <span class="border-b border-dotted border-gray-400 block w-full inline-block min-h-[1.5rem]"></span></div>
+                            <div>Terbilang</div>
+                            <div>: <span class="border-b border-dotted border-gray-400 block w-full inline-block min-h-[1.5rem]"></span></div>
+                        </div>
+
+                        <div class="flex justify-between items-end mt-8">
+                            <div class="text-center w-48">
+                                <p class="mb-16">Donatur</p>
+                                <p>(............................................)</p>
+                            </div>
+                            <div class="text-center w-48">
+                                <p class="mb-16">a.n Panitia</p>
+                                <p>(............................................)</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 p-3 bg-red-50 text-xs border border-red-200 rounded-lg text-center">
+                            <p class="font-bold">NO REKENING PANITIA : 2059-5935-32 (BANK BNI) A.N. ALVERA TERESIA BR KEMBAREN</p>
+                            <p class="text-camp-red font-bold mt-1">“BENTUK PEMBAYARAN HANYA MELALUI TAUTAN RESMI (LINK RESMI) DARI PANITIA ATAU PROPOSAL/UNDANGAN FISIK YANG DISERTAI SOBEKAN ASLI”</p>
+                            <p class="mt-2 italic">Atas Nama Panitia Bible Camp PERMATA GBKP Runggun Km. 4 Medan Mengucapkan Terima Kasih Banyak Atas Bantuan Dana Untuk Pelaksanaan Kegiatan Bible Camp PERMATA GBKP Km. 4 Medan</p>
+                        </div>
+                    </div>
+
+                    <!-- Kuitansi Panitia -->
+                    <div class="border-2 border-camp-orange rounded-xl p-6 relative bg-white receipt-cut" style="border-top-style: solid;"> 
+                        <!-- Override border top for styling, receipt cut handles the scissors -->
+                        <div class="absolute top-4 right-4 text-xs font-bold bg-orange-100 text-camp-orange px-2 py-1 rounded">Lembar Panitia</div>
+                        <div class="text-center border-b-2 border-camp-blue pb-4 mb-4">
+                            <h3 class="text-xl font-bold font-display text-camp-blue">KUITANSI PROPOSAL</h3>
+                            <p class="text-sm">No : ........................................</p>
+                        </div>
+                        
+                        <div class="grid grid-cols-[120px_auto] gap-3 mb-6">
+                            <div>Nama Donatur</div>
+                            <div>: <span class="border-b border-dotted border-gray-400 block w-full inline-block min-h-[1.5rem]"></span></div>
+                            <div>Hari/Tanggal</div>
+                            <div>: <span class="border-b border-dotted border-gray-400 block w-full inline-block min-h-[1.5rem]"></span></div>
+                            <div>Uang Sejumlah</div>
+                            <div>: <span class="border-b border-dotted border-gray-400 block w-full inline-block min-h-[1.5rem]"></span></div>
+                            <div>Terbilang</div>
+                            <div>: <span class="border-b border-dotted border-gray-400 block w-full inline-block min-h-[1.5rem]"></span></div>
+                        </div>
+
+                        <div class="flex justify-between items-end mt-8">
+                            <div class="text-center w-48">
+                                <p class="mb-16">Penyumbang</p>
+                                <p>(............................................)</p>
+                            </div>
+                            <div class="text-center w-48">
+                                <p class="mb-16">a.n Panitia</p>
+                                <p>(............................................)</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 p-3 bg-red-50 text-xs border border-red-200 rounded-lg text-center">
+                            <p class="font-bold">NO REKENING PANITIA : 2059-5935-32 (BANK BNI) A.N. ALVERA TERESIA BR KEMBAREN</p>
+                            <p class="text-camp-red font-bold mt-1">“BENTUK PEMBAYARAN HANYA MELALUI TAUTAN RESMI (LINK RESMI) DARI PANITIA ATAU PROPOSAL/UNDANGAN FISIK YANG DISERTAI SOBEKAN ASLI”</p>
+                            <p class="mt-2 italic">Atas Nama Panitia Bible Camp PERMATA GBKP Runggun Km. 4 Medan Mengucapkan Terima Kasih Banyak Atas Bantuan Dana Untuk Pelaksanaan Kegiatan Bible Camp PERMATA GBKP Km. 4 Medan</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="mt-16 mb-8">
+                    <div class="bg-gradient-to-r from-camp-blue to-cyan-600 rounded-2xl p-8 text-center shadow-lg text-white">
+                        <h3 class="font-display text-2xl md:text-3xl font-bold mb-3">Unduh Proposal Fisik</h3>
+                        <p class="mb-6 text-cyan-100 max-w-2xl mx-auto">Anda dapat mengunduh dokumen proposal ini dalam format PDF melalui tombol di bawah ini.</p>
+                        
+                        <a href="assets/proposal/PROPOSAL BIBLE CAMP PERMATA GBKP KM.4 TAHUN 2026.pdf" download="PROPOSAL BIBLE CAMP PERMATA GBKP KM.4 TAHUN 2026.pdf" class="inline-flex items-center justify-center gap-3 bg-white text-camp-blue hover:bg-camp-orange hover:text-white font-bold text-lg py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md">
+                            <i class="fa-solid fa-file-pdf text-xl"></i>
+                            Download Proposal PDF
+                        </a>
+                    </div>
+                </section>
+
+            </main>
+            
+            <!-- FOOTER -->
+                <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+
+                        <div
+                            class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-teal-500 flex items-center justify-center text-white shadow-lg">
+
+                            <i class="fa-solid fa-campground"></i>
+
+                        </div>
+
+                        <div>
+                            <h3 class="font-bold text-white text-lg">
+                                Bible Camp 2026
+                            </h3>
+
+                            <p class="text-xs text-brand-400 uppercase tracking-wider font-semibold">
+                                PERMATA GBKP KM.4
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <p class="text-sm leading-relaxed text-slate-400">
+                        Bible Camp PERMATA GBKP Km.4 Medan merupakan kegiatan pembinaan iman
+                        untuk membangun karakter, spiritualitas,
+                        dan kebersamaan pemuda gereja.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-semibold mb-4">
+                        Kontak Panitia
+                    </h4>
+
+                    <div class="space-y-3 text-sm">
+
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot text-brand-400 mt-1"></i>
+
+                            <p>
+                                Jl. Letjend Djamin Ginting Km.4 Medan
+                            </p>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-green-400"></i>
+
+                            <p>
+                                0812-6245-2738
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-semibold mb-4">
+                        Navigasi
+                    </h4>
+
+                    <div class="space-y-2 text-sm">
+
+                        <a href="#tentang" class="block hover:text-brand-400 transition duration-300">
+                            Tentang
+                        </a>
+
+                        <a href="#agenda" class="block hover:text-brand-400 transition duration-300">
+                            Agenda
+                        </a>
+
+                        <a href="#galeri" class="block hover:text-brand-400 transition duration-300">
+                            Galeri
+                        </a>
+
+                        <a href="proposal.html" class="block hover:text-brand-400 transition duration-300">
+                            Proposal Digital
+                        </a>
+
+                        <a href="#donasi" class="block hover:text-brand-400 transition duration-300">
+                            Donasi
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div
+                class="border-t border-slate-800 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+
+                <p>
+                    © 2026 Panitia Bible Camp PERMATA GBKP Km.4 Medan.
+                </p>
+
+                <a href="https://www.instagram.com/ditokita_aja/" target="_blank"
+                    class="flex items-center gap-2 hover:text-pink-400 transition duration-300">
+
+                    <i class="fa-brands fa-instagram text-base"></i>
+
+                    <span>
+                        UI Design by Ditokokita_Aja
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+    </footer>
+        </div>
+
+        <!-- TOMBOL MELAYANG KEMBALI KE HALAMAN UTAMA (FLOATING HOME BUTTON) -->
+        <!-- Silakan ganti nilai href="index.html" di bawah ini dengan link target Anda sendiri -->
+        <a href="index.html" 
+           class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-camp-blue hover:bg-camp-orange text-white rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 active:scale-95 group" 
+           title="Kembali ke Halaman Utama">
+            <i class="fa-solid fa-house text-xl transition-transform duration-300 group-hover:animate-pulse"></i>
+        </a>
+
+    </body>
+    </html>

@@ -9,7 +9,6 @@
 
     <link rel="icon" type="image/png" href="assets/img/logo.png">
 
-    <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script>
@@ -30,28 +29,23 @@
         }
     </script>
 
-    <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
 
-    <!-- NAVBAR -->
     <nav class="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-lg border-b border-slate-200">
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <div class="flex items-center justify-between h-16">
 
-                <!-- LOGO -->
                 <div class="flex items-center gap-3">
 
                     <div class="w-11 h-11 rounded-xl overflow-hidden bg-cream shadow-md">
@@ -70,7 +64,6 @@
 
                 </div>
 
-                <!-- DESKTOP MENU -->
                 <div class="hidden lg:flex items-center gap-8 text-sm font-semibold">
 
                     <a href="#tentang" class="hover:text-primary transition">
@@ -92,7 +85,6 @@
 
                 </div>
 
-                <!-- MOBILE BUTTON -->
                 <button id="menuBtn" class="lg:hidden text-darkblue text-2xl">
 
                     <i class="fa-solid fa-bars"></i>
@@ -101,7 +93,6 @@
 
             </div>
 
-            <!-- MOBILE MENU -->
             <div id="mobileMenu" class="hidden lg:hidden pb-5 pt-2 space-y-4">
 
                 <a href="#tentang" class="block font-medium">
@@ -126,7 +117,6 @@
 
     </nav>
 
-    <!-- HERO -->
     <header class="hero-section">
 
         <div class="overlay"></div>
@@ -135,7 +125,6 @@
 
             <div class="grid lg:grid-cols-2 gap-14 items-center">
 
-                <!-- TEXT -->
                 <div class="text-center lg:text-left">
 
                     <span class="badge">
@@ -151,24 +140,21 @@
                         “Berakar dan Berbuah di Dalam Kristus”
                     </p>
 
-                    <div class="flex flex-col sm:flex-row gap-4 mt-8 justify-center lg:justify-start">
+                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mt-8 justify-center lg:justify-start">
 
-                        <a href="#donasi" class="btn-primary">
+                        <a href="#donasi" class="btn-primary w-full sm:w-auto text-center justify-center">
                             Donasi Sekarang
                         </a>
 
                         <a href="assets/proposal/PROPOSAL%20BIBLE%20CAMP%20PERMATA%20GBKP%20KM.4%20TAHUN%202026.pdf" download
-                    class="btn-primary inline-flex">
-
-                    Download Proposal
-
-                </a>
+                           class="btn-secondary w-full sm:w-auto text-center justify-center inline-flex items-center">
+                            Download Proposal
+                        </a>
 
                     </div>
 
                 </div>
 
-                <!-- HERO IMAGE -->
                 <div class="flex justify-center">
 
                     <img src="assets/img/COVER TENDA CAMP-jukebox-bg-removed.png"
@@ -182,15 +168,12 @@
 
     </header>
 
-    <!-- TENTANG -->
     <section id="tentang" class="section bg-white">
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-            <!-- Grid Container membungkus TEXT dan IMAGE -->
             <div class="grid lg:grid-cols-2 gap-14 items-center">
 
-                <!-- TEXT -->
                 <div>
 
                     <span class="section-label">
@@ -224,7 +207,6 @@
                         serta mempererat persaudaraan antar anggota PERMATA.
                     </p>
 
-                    <!-- LIST -->
                     <div class="grid sm:grid-cols-2 gap-4 mt-8">
 
                         <div class="benefit-box">
@@ -253,10 +235,7 @@
                         Lihat Agenda
                     </a>
 
-                </div> <!-- Penutup TEXT -->
-
-                <!-- IMAGE / LOGO (Sekarang sejajar di samping TEXT) -->
-                <div class="relative">
+                </div> <div class="relative">
 
                     <div class="rounded-[30px] overflow-hidden shadow-2xl">
 
@@ -265,15 +244,8 @@
 
                     </div>
 
-                </div> <!-- Penutup IMAGE -->
+                </div> </div> </div> </section>
 
-            </div> <!-- Penutup Grid -->
-
-        </div> <!-- Penutup Max-W-7xl -->
-
-    </section>
-
-    <!-- AGENDA -->
     <section id="agenda" class="section bg-slate-50">
 
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -296,7 +268,6 @@
 
             <div class="space-y-8">
 
-                <!-- HARI 1 -->
                 <div class="timeline-card">
 
                     <div class="timeline-number">
@@ -336,7 +307,6 @@
 
                 </div>
 
-                <!-- HARI 2 -->
                 <div class="timeline-card">
 
                     <div class="timeline-number">
@@ -381,7 +351,6 @@
 
                 </div>
 
-                <!-- HARI 3 -->
                 <div class="timeline-card">
 
                     <div class="timeline-number">
@@ -423,7 +392,6 @@
 
             </div>
 
-            <!-- BUTTON -->
             <div class="text-center mt-12">
 
                 <a href="assets/proposal/PROPOSAL%20BIBLE%20CAMP%20PERMATA%20GBKP%20KM.4%20TAHUN%202026.pdf" download
@@ -439,8 +407,7 @@
 
     </section>
 
-    <!-- GALERI -->
-    <section id="   " class="section">
+    <section id="galeri" class="section">
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -476,14 +443,12 @@
 
     </section>
 
-    <!-- DONASI -->
     <section id="donasi" class="section bg-slate-950 text-white">
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <div class="grid lg:grid-cols-2 gap-10 items-center">
 
-                <!-- LEFT -->
                 <div>
 
                     <span class="section-label text-tealsoft">
@@ -523,7 +488,6 @@
 
                 </div>
 
-                <!-- RIGHT -->
                 <div class="donasi-card">
 
                     <h3 class="text-2xl font-bold mb-2">
@@ -582,13 +546,11 @@
 
     </section>
 
-    <!-- FOOTER -->
     <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-                <!-- BRAND -->
                 <div>
                     <div class="flex items-center gap-3 mb-4">
 
@@ -618,7 +580,6 @@
                     </p>
                 </div>
 
-                <!-- KONTAK -->
                 <div>
                     <h4 class="text-white font-semibold mb-4">
                         Kontak Panitia
@@ -644,7 +605,6 @@
                     </div>
                 </div>
 
-                <!-- MENU -->
                 <div>
                     <h4 class="text-white font-semibold mb-4">
                         Navigasi
@@ -673,7 +633,6 @@
 
             </div>
 
-            <!-- COPYRIGHT -->
             <div
                 class="border-t border-slate-800 mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
 
@@ -698,8 +657,137 @@
     </footer>
 
 
-    <!-- JS -->
     <script src="assets/js/script.js"></script>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const path = window.location.pathname;
+            const searchParams = new URLSearchParams(window.location.search);
+            let tamu = "";
+
+            // Deteksi parameter nama lewat path /to=nama ataupun standar ?to=nama
+            if (path.includes('to=')) {
+                tamu = path.split('to=')[1];
+            } else if (searchParams.has('to')) {
+                tamu = searchParams.get('to');
+            }
+
+            if (tamu) {
+                tamu = decodeURIComponent(tamu).replace(/[+_]/g, ' ');
+                tamu = tamu.replace(/\b\w/g, char => char.toUpperCase());
+            } else {
+                tamu = "Peserta"; 
+            }
+
+            // Membangun Elemen Struktur Konten Popup secara Dinamis
+            const welcomePopup = document.createElement("div");
+            welcomePopup.id = "welcomePopup";
+            welcomePopup.innerHTML = `
+                <div style="
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(18, 48, 71, 0.7);
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(10px);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 10000;
+                    animation: fadeInWelcome 0.4s ease forwards;
+                    padding: 20px;
+                ">
+                    <div style="
+                        background: #ffffff;
+                        color: #123047;
+                        padding: 40px 30px 35px 30px;
+                        border-radius: 24px;
+                        width: 100%;
+                        max-width: 400px;
+                        text-align: center;
+                        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+                        font-family: 'Plus Jakarta Sans', sans-serif;
+                        animation: scaleUpWelcome 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+                    ">
+                        <div style="
+                            width: 72px;
+                            height: 72px;
+                            background: #fff4e8;
+                            color: #ff8c32;
+                            font-size: 34px;
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 0 auto 22px auto;
+                        ">
+                            👋
+                        </div>
+                        
+                        <h3 style="margin: 0 0 6px 0; font-size: 12px; color: #0ea5b7; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;">
+                            Shalom & Selamat Datang
+                        </h3>
+                        
+                        <h2 style="margin: 0 0 16px 0; font-size: 26px; color: #123047; font-weight: 800; line-height: 1.2;">
+                            ${tamu}
+                        </h2>
+                        
+                        <p style="margin: 0 0 28px 0; font-size: 14px; color: #475569; line-height: 1.6;">
+                            Selamat datang di website resmi <br><strong style="color: #123047;">Event Bible Camp PERMATA GBKP 2026</strong>. Bersiaplah untuk bertumbuh bersama dalam iman!
+                        </p>
+                        
+                        <button id="closeWelcomeBtn" style="
+                            background: #0ea5b7;
+                            color: white;
+                            border: none;
+                            padding: 14px 28px;
+                            font-size: 15px;
+                            font-weight: 700;
+                            border-radius: 50px;
+                            cursor: pointer;
+                            width: 100%;
+                            box-shadow: 0 10px 20px -5px rgba(14, 165, 183, 0.4);
+                            transition: all 0.2s ease;
+                        " onmouseover="this.style.background='#14b8a6'" onmouseout="this.style.background='#0ea5b7'">
+                            Buka Undangan
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            document.body.appendChild(welcomePopup);
+            document.body.style.overflow = 'hidden';
+
+            document.getElementById('closeWelcomeBtn').addEventListener('click', () => {
+                welcomePopup.style.animation = "fadeOutWelcome 0.3s ease forwards";
+                document.body.style.overflow = ''; 
+                
+                setTimeout(() => {
+                    welcomePopup.remove();
+                }, 300);
+            });
+        });
+
+        // Menambahkan CSS khusus ke Head Dokumen
+        const welcomeStyle = document.createElement("style");
+        welcomeStyle.innerHTML = `
+            @keyframes fadeInWelcome {
+                from { opacity: 0; }
+                to { opacity: 1; }
+            }
+            @keyframes fadeOutWelcome {
+                from { opacity: 1; }
+                to { opacity: 0; pointer-events: none; }
+            }
+            @keyframes scaleUpWelcome {
+                from { transform: scale(0.85); opacity: 0; }
+                to { transform: scale(1); opacity: 1; }
+            }
+        `;
+        document.head.appendChild(welcomeStyle);
+    </script>
 
 </body>
 

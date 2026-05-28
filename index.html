@@ -140,14 +140,16 @@
                         “Berakar dan Berbuah di Dalam Kristus”
                     </p>
 
-                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mt-8 justify-center lg:justify-start">
+                    <div
+                        class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mt-8 justify-center lg:justify-start">
 
                         <a href="#donasi" class="btn-primary w-full sm:w-auto text-center justify-center">
                             Donasi Sekarang
                         </a>
 
-                        <a href="assets/proposal/PROPOSAL%20BIBLE%20CAMP%20PERMATA%20GBKP%20KM.4%20TAHUN%202026.pdf" download
-                           class="btn-secondary w-full sm:w-auto text-center justify-center inline-flex items-center">
+                        <a href="assets/proposal/PROPOSAL%20BIBLE%20CAMP%20PERMATA%20GBKP%20KM.4%20TAHUN%202026.pdf"
+                            download
+                            class="btn-secondary w-full sm:w-auto text-center justify-center inline-flex items-center">
                             Download Proposal
                         </a>
 
@@ -235,7 +237,8 @@
                         Lihat Agenda
                     </a>
 
-                </div> <div class="relative">
+                </div>
+                <div class="relative">
 
                     <div class="rounded-[30px] overflow-hidden shadow-2xl">
 
@@ -244,7 +247,10 @@
 
                     </div>
 
-                </div> </div> </div> </section>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="agenda" class="section bg-slate-50">
 
@@ -467,7 +473,7 @@
                     <div class="rekening-box">
 
                         <p class="text-slate-400 text-sm mb-2">
-                            Rekening Resmi BNI 
+                            Rekening Resmi BNI
                         </p>
 
                         <h3>
@@ -659,27 +665,29 @@
 
     <script src="assets/js/script.js"></script>
 
+    <!-- SCRIPT POPUP SELAMAT DATANG (DINAMIS DONATUR / NAMA) -->
     <script>
         window.addEventListener('DOMContentLoaded', () => {
             const path = window.location.pathname;
             const searchParams = new URLSearchParams(window.location.search);
             let tamu = "";
 
-            // Deteksi parameter nama lewat path /to=nama ataupun standar ?to=nama
+            // 1. Deteksi apakah ada input nama di URL
             if (path.includes('to=')) {
                 tamu = path.split('to=')[1];
             } else if (searchParams.has('to')) {
                 tamu = searchParams.get('to');
             }
 
-            if (tamu) {
+            // 2. Logika Kondisional: Jika ada nama, rapikan. Jika kosong, ubah jadi "Donatur"
+            if (tamu && tamu.trim() !== "") {
                 tamu = decodeURIComponent(tamu).replace(/[+_]/g, ' ');
                 tamu = tamu.replace(/\b\w/g, char => char.toUpperCase());
             } else {
-                tamu = "Peserta"; 
+                tamu = "Donatur"; // Default jika mengakses link utama tanpa nama
             }
 
-            // Membangun Elemen Struktur Konten Popup secara Dinamis
+            // 3. Bangun struktur Popup
             const welcomePopup = document.createElement("div");
             welcomePopup.id = "welcomePopup";
             welcomePopup.innerHTML = `
@@ -731,7 +739,7 @@
                         </h3>
                         
                         <h2 style="margin: 0 0 16px 0; font-size: 26px; color: #123047; font-weight: 800; line-height: 1.2;">
-                            ${tamu}
+                            Halo, ${tamu}
                         </h2>
                         
                         <p style="margin: 0 0 28px 0; font-size: 14px; color: #475569; line-height: 1.6;">
@@ -762,15 +770,14 @@
 
             document.getElementById('closeWelcomeBtn').addEventListener('click', () => {
                 welcomePopup.style.animation = "fadeOutWelcome 0.3s ease forwards";
-                document.body.style.overflow = ''; 
-                
+                document.body.style.overflow = '';
+
                 setTimeout(() => {
                     welcomePopup.remove();
                 }, 300);
             });
         });
 
-        // Menambahkan CSS khusus ke Head Dokumen
         const welcomeStyle = document.createElement("style");
         welcomeStyle.innerHTML = `
             @keyframes fadeInWelcome {

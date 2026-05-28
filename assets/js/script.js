@@ -66,5 +66,7 @@ style.innerHTML = `
         transform: translateX(0);
     }
 }
+
+
 `;
 document.head.appendChild(style);

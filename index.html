@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bible Camp PERMATA GBKP 2026</title>
+
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0ea5b7',
+                        secondary: '#ff8c32',
+                        darkblue: '#123047',
+                        soft: '#f7eef1',
+                        cream: '#fff4e8',
+                        sunset: '#ffb347',
+                        tealsoft: '#14b8a6'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-lg border-b border-slate-200">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="flex items-center justify-between h-16">
+
+                <!-- LOGO -->
+                <div class="flex items-center gap-3">
+
+                    <div class="w-11 h-11 rounded-xl overflow-hidden bg-cream shadow-md">
+                        <img src="assets/img/logo.jpg" class="w-full h-full object-cover">
+                    </div>
+
+                    <div>
+                        <h1 class="font-bold text-sm sm:text-base text-darkblue">
+                            Bible Camp 2026
+                        </h1>
+
+                        <p class="text-[10px] font-bold uppercase tracking-wider text-primary">
+                            PERMATA GBKP KM.4
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- DESKTOP MENU -->
+                <div class="hidden lg:flex items-center gap-8 text-sm font-semibold">
+
+                    <a href="#tentang" class="hover:text-primary transition">
+                        Tentang
+                    </a>
+
+                    <a href="#agenda" class="hover:text-primary transition">
+                        Agenda
+                    </a>
+
+                    <a href="#galeri" class="hover:text-primary transition">
+                        Galeri
+                    </a>
+
+                    <a href="#donasi"
+                        class="bg-primary hover:bg-tealsoft text-white px-5 py-2.5 rounded-full transition">
+                        Donasi
+                    </a>
+
+                </div>
+
+                <!-- MOBILE BUTTON -->
+                <button id="menuBtn" class="lg:hidden text-darkblue text-2xl">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+            <!-- MOBILE MENU -->
+            <div id="mobileMenu" class="hidden lg:hidden pb-5 pt-2 space-y-4">
+
+                <a href="#tentang" class="block font-medium">
+                    Tentang
+                </a>
+
+                <a href="#agenda" class="block font-medium">
+                    Agenda
+                </a>
+
+                <a href="#galeri" class="block font-medium">
+                    Galeri
+                </a>
+
+                <a href="#donasi" class="block bg-primary text-white px-4 py-3 rounded-xl text-center font-semibold">
+                    Donasi
+                </a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero-section">
+
+        <div class="overlay"></div>
+
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+            <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+                <!-- TEXT -->
+                <div class="text-center lg:text-left">
+
+                    <span class="badge">
+                        10 - 12 JULI 2026
+                    </span>
+
+                    <h1 class="hero-title">
+                        BIBLE CAMP
+                        <span>PERMATA GBKP KM.4 MEDAN</span>
+                    </h1>
+
+                    <p class="hero-desc">
+                        “Berakar dan Berbuah di Dalam Kristus”
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 mt-8 justify-center lg:justify-start">
+
+                        <a href="#donasi" class="btn-primary">
+                            Donasi Sekarang
+                        </a>
+
+                        <a href="#tentang" class="btn-secondary">
+                            Pelajari Proposal
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- HERO IMAGE -->
+                <div class="flex justify-center">
+
+                    <img src="assets/img/hero-camp.png" class="w-full max-w-md drop-shadow-2xl">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- TENTANG -->
+    <section id="tentang" class="section">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+                <div>
+
+                    <span class="section-label">
+                        Tentang Kegiatan
+                    </span>
+
+                    <h2 class="section-title">
+                        Mengapa Bible Camp Ini Penting?
+                    </h2>
+
+                    <p class="section-text">
+                        Bible Camp PERMATA GBKP Km.4 Medan merupakan
+                        kegiatan pembinaan iman untuk memperkuat karakter,
+                        mempererat persaudaraan, dan menumbuhkan spiritualitas
+                        pemuda-pemudi gereja.
+                    </p>
+
+                    <p class="section-text mt-4">
+                        Kegiatan ini diisi dengan ibadah, seminar rohani,
+                        outbound, sharing session, dan kebersamaan di alam terbuka.
+                    </p>
+
+                </div>
+
+                <div class="about-box">
+                    <i class="fa-solid fa-file-pdf"></i>
+
+                    <h3 class="text-2xl font-bold mb-3">
+                        Proposal Resmi
+                    </h3>
+
+                    <p class="text-slate-300 mb-6">
+                        Download proposal Bible Camp 2026.
+                    </p>
+
+                    <a href="assets/proposal/PROPOSAL%20BIBLE%20CAMP%20PERMATA%20GBKP%20KM.4%20TAHUN%202026.pdf"
+                        download="PROPOSAL BIBLE CAMP PERMATA GBKP KM.4 TAHUN 2026.pdf" class="btn-download">
+                        Download Proposal
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- AGENDA -->
+    <section id="agenda" class="section bg-white">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center mb-12">
+
+                <span class="section-label">
+                    Agenda
+                </span>
+
+                <h2 class="section-title">
+                    Rangkaian Kegiatan
+                </h2>
+
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="agenda-card">
+                    <h3>Hari Pertama</h3>
+                    <p>
+                        Registrasi peserta, ibadah pembuka,
+                        dan games kebersamaan.
+                    </p>
+                </div>
+
+                <div class="agenda-card">
+                    <h3>Hari Kedua</h3>
+                    <p>
+                        Seminar rohani, sharing session,
+                        dan malam api unggun.
+                    </p>
+                </div>
+
+                <div class="agenda-card">
+                    <h3>Hari Ketiga</h3>
+                    <p>
+                        Ibadah minggu, outbound,
+                        dan penutupan kegiatan.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GALERI -->
+    <section id="galeri" class="section">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center mb-12">
+
+                <span class="section-label">
+                    Dokumentasi
+                </span>
+
+                <h2 class="section-title">
+                    Galeri Kegiatan
+                </h2>
+
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="gallery-item">
+                    <img src="assets/img/galeri-1.jpg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/img/galeri-2.jpg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/img/galeri-3.jpg">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- DONASI -->
+    <section id="donasi" class="section bg-slate-950 text-white">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="grid lg:grid-cols-2 gap-10 items-center">
+
+                <!-- LEFT -->
+                <div>
+
+                    <span class="section-label text-tealsoft">
+                        Donasi
+                    </span>
+
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-5">
+                        Dukungan Donasi
+                    </h2>
+
+                    <p class="text-slate-300 leading-relaxed mb-8">
+                        Seluruh bantuan dan dukungan akan digunakan
+                        untuk mendukung seluruh kegiatan Bible Camp.
+                    </p>
+
+                    <div class="rekening-box">
+
+                        <p class="text-slate-400 text-sm mb-2">
+                            Rekening Resmi
+                        </p>
+
+                        <h3>
+                            2059 5935 32
+                        </h3>
+
+                        <p class="mb-6">
+                            a/n Alvera Teresia Br Kembaren
+                        </p>
+
+                        <button onclick="copyRekening()" class="copy-btn">
+
+                            Salin Nomor Rekening
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT -->
+                <div class="donasi-card">
+
+                    <h3 class="text-2xl font-bold mb-2">
+                        Konfirmasi Donasi
+                    </h3>
+
+                    <p class="text-slate-500 mb-8">
+                        Pilih salah satu metode konfirmasi.
+                    </p>
+
+                    <div class="space-y-5">
+
+                        <a href="https://wa.me/6281262452738" target="_blank" class="konfirmasi-item">
+
+                            <div class="icon-wa">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+
+                            <div>
+                                <h4>
+                                    Konfirmasi WhatsApp
+                                </h4>
+
+                                <p>
+                                    Hubungi admin panitia secara langsung.
+                                </p>
+                            </div>
+
+                        </a>
+
+                        <a href="https://forms.gle/ISI_LINK_FORM" target="_blank" class="konfirmasi-item">
+
+                            <div class="icon-google">
+                                <i class="fa-brands fa-google"></i>
+                            </div>
+
+                            <div>
+                                <h4>
+                                    Isi Google Form
+                                </h4>
+
+                                <p>
+                                    Pendataan donatur melalui Google Form.
+                                </p>
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-400 py-8">
+
+        <div class="max-w-7xl mx-auto px-4 text-center">
+
+            <p class="text-sm">
+                © 2026 Bible Camp PERMATA GBKP Km.4 Medan
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

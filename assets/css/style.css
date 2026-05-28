@@ -86,6 +86,16 @@ body{
 }
 
 .btn-secondary{
+    background:#ff8c32;
+    color:white;
+    padding:15px 28px;
+    border-radius:16px;
+    font-weight:700;
+    text-align:center;
+    transition:.3s;
+}
+
+.btn-secondaryy{
     border:1px solid rgba(255,255,255,.15);
     padding:15px 28px;
     border-radius:16px;
